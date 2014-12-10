@@ -12,6 +12,7 @@
  * This engine is available globally via the Engine variable and it also makes
  * the canvas' context (ctx) object globally available to make writing app.js
  * a little simpler to work with.
+ * @author Udacity
  */
 
 var Engine = (function(global) {

@@ -1,6 +1,8 @@
-frontend-nanodegree-arcade-game
+Frogger HTML5 Canvas Game
 ===============================
 
-Students should use this rubric: https://www.udacity.com/course/viewer#!/c-ud015/l-3072058665/m-3072588797
+Implementation of a frogger game using javascript and HTML5 cavnas. 
 
-for self-checking their submission.
+Simply open the index.html file to play. 
+
+I mainly coded the app.js file, which includes all of the game objects.
