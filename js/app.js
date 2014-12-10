@@ -211,15 +211,15 @@ var ranRow = function() {
 
 
 
-// Now instantiating objects for the game
+// Instantiating objects for the game
 $("#score").append("<h2>Score: " + global_score + " </h2>") ; //appends a counter
 
 // Places all enemy objects in an array called allEnemies
-var enemy1 = new Enemy(1*COL_WIDTH, 0.75*ROW_WIDTH, 100) ;
-var enemy2 = new Enemy(2*COL_WIDTH, 1.75*ROW_WIDTH, 200) ;
 var allEnemies = [] ;
-allEnemies.push(enemy1) ;
-allEnemies.push(enemy2) ;
+for (var i = 1; i<4 ; i++){
+    var enemy = new Enemy(i*COL_WIDTH, (i-0.25)*ROW_WIDTH, i*100) ;
+    allEnemies.push(enemy) ;
+}
 
 //Creates a jewel object
 var jewel = new Jewel(ranCol(), ranRow()) ;
